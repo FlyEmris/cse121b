@@ -28,7 +28,8 @@ let favoriteFood = [
     "Pizza",
     "Popcorn",
     "Macaroni and Cheese",
-    "Goldfish"
+    "Goldfish",
+    "Cookies and Cream Milkshakes"
 ];
 
 let singleFavoriteFood = "oreo";
