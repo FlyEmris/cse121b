@@ -32,8 +32,14 @@ let favoriteFood = [
     "Cookies and Cream Milkshakes"
 ];
 
+foodElement.innerHTML += `<br>${favoriteFood}`;
+
 let singleFavoriteFood = "oreo";
 favoriteFood.push(singleFavoriteFood);
 foodElement.innerHTML += `<br>${favoriteFood}`;
 
+favoriteFood.shift();
+foodElement.innerHTML += `<br>${favoriteFood}`;
 
+favoriteFood.pop();
+foodElement.innerHTML += `<br>${favoriteFood}`;

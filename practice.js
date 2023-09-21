@@ -4,4 +4,5 @@ h3.textContent = 'Relief Society';
 
 console.log('${h3} ${section}.');
 
-const ward = '<strong>Home Ward</strong>: ${homeWard}';
+const ward = `<strong>Home Ward</strong>: ${homeWard}`;
+section.append(h3);
