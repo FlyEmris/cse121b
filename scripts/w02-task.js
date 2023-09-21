@@ -28,8 +28,7 @@ let favoriteFood = [
     "Pizza",
     "Popcorn",
     "Macaroni and Cheese",
-    "Goldfish",
-    "Cookies and Cream Milkshakes"
+    "Goldfish"
 ];
 
 foodElement.innerHTML += `<br>${favoriteFood}`;
