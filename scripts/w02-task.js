@@ -27,7 +27,8 @@ imageElement.setAttribute
 let favoriteFood = [
     "Pizza",
     "Popcorn",
-    "Macaroni and Cheese"
+    "Macaroni and Cheese",
+    "Goldfish"
 ];
 
 let singleFavoriteFood = "oreo";
