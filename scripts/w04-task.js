@@ -57,22 +57,22 @@ myProfile.hobbies.forEach(hobbies => {
 });
 
 /* Places Lived DataList */
-// myProfile.placesLived.forEach(place => {
-//     let dt = document.createElement('dt');
-//     dt.innerHTML = place.place;
-//     document.querySelector('#places-lived').appendChild(dt);
-// });
-// myProfile.placesLived.forEach(length => {
-//     let dd = document.createElement('dd');
-//     dd.innerHTML = length.length;
-//     document.querySelector('#places-lived').appendChild(dd);
-// });
+myProfile.placesLived.forEach(place => {
+    let dt = document.createElement('dt');
+    dt.innerHTML = place.place;
+    document.querySelector('#places-lived').appendChild(dt);
+});
+myProfile.placesLived.forEach(length => {
+    let dd = document.createElement('dd');
+    dd.innerHTML = length.length;
+    document.querySelector('#places-lived').appendChild(dd);
+});
 
-let dt = document.createElement('dt');
-dt.innerHTML = myProfile.placesLived[0].place;
-document.querySelector('#places-lived').appendChild(dt);
-let dd = document.createElement('dd');
-dd.innerHTML = myProfile.placesLived[0].length;
-document.querySelector('#places-lived').appendChild(dd);
+// let dt = document.createElement('dt');
+// dt.innerHTML = myProfile.placesLived[0].place;
+// document.querySelector('#places-lived').appendChild(dt);
+// let dd = document.createElement('dd');
+// dd.innerHTML = myProfile.placesLived[0].length;
+// document.querySelector('#places-lived').appendChild(dd);
 
 
